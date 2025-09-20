@@ -10,7 +10,7 @@ app.use(express.json());
 const PORT = 3000;
 const { API_URL, PRIVATE_KEY } = process.env;
 // 👇 PASTE YOUR *NEW* DEPLOYED CONTRACT ADDRESS HERE AFTER YOU RE-DEPLOY
-const CONTRACT_ADDRESS = "0x2d5FD0d41CdeDEe3A32258Fc36B9CD021569Ba61";
+const CONTRACT_ADDRESS = CONTRACT_ADDRESS_URL;
 
 // --- Ethers.js Setup ---
 const provider = new ethers.JsonRpcProvider(API_URL);
