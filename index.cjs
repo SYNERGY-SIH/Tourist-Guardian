@@ -8,7 +8,7 @@ app.use(express.json());
 
 // --- CONFIGURATION ---
 const PORT = 3000;
-const { API_URL, PRIVATE_KEY } = process.env;
+const { API_URL, PRIVATE_KEY, CONTRACT_ADDRESS_URL } = process.env;
 // 👇 PASTE YOUR *NEW* DEPLOYED CONTRACT ADDRESS HERE AFTER YOU RE-DEPLOY
 const CONTRACT_ADDRESS = CONTRACT_ADDRESS_URL;
 
